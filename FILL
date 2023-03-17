@@ -1,0 +1,49 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("[FORGOTEN MEMORIES] [QUICK PANEL] ", "BloodTheme",Enum.KeyCode.RightControl)
+local Tab = Window:NewTab("[+] TELEPORT")
+------------------------------------------------------------------------------------------------------------------------------------------
+
+local Section = Tab:NewSection("UR ROOM")
+
+Section:NewButton("MY ROOM ", "E", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-98.0118256, 1.28608489, -146.682648, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Section:NewLabel("STATION")
+
+Section:NewButton("fix station 1", "E", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-400.723816, 5.72875977, -8.02793026, 0.985938787, -7.66813755e-05, 0.167106628, -0.0263385102, 0.987429142, 0.15585193, -0.165017918, -0.158061802, 0.97354269)
+end)
+
+Section:NewButton("fix station 2", "E", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-382.613007, 5.71833324, -39.557663, 0.998664677, 0.0147224665, 0.0495186001, -0.0253294725, 0.974952519, 0.22096628, -0.0450251102, -0.221925467, 0.974023581)
+end)
+
+Section:NewLabel("OGXEGEN YOU ")
+
+Section:NewButton("o2", "E", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-288.214447, 6.11481905, -321.963593, -0.934496284, 0.0565680638, -0.35144946, -0.0284758564, 0.972249508, 0.232206494, 0.354832053, 0.227003917, -0.906952858)
+end)
+
+
+local Tab = Window:NewTab("[+] INFINITY YIELD")
+local Section = Tab:NewSection("inf")
+Section:NewLabel("PRESS ME ")
+Section:NewButton("inf", "E", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/poompoomshop/anit-kick/main/codes", true))();
+end)
+
+Section:NewButton("fix station 2", "E", function()
+
+	game.Players.LocalPlayer:Kick("
+	
+	YOU BANNED 3 YEARS EZ LOL                                        
+	
+	
+	
+	
+	
+	
+	REJOIN !   JUST TROLL :) ")
+
+end)
