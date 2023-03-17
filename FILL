@@ -32,18 +32,3 @@ Section:NewLabel("PRESS ME ")
 Section:NewButton("inf", "E", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/poompoomshop/anit-kick/main/codes", true))();
 end)
-
-Section:NewButton("fix station 2", "E", function()
-
-	game.Players.LocalPlayer:Kick("
-	
-	YOU BANNED 3 YEARS EZ LOL                                        
-	
-	
-	
-	
-	
-	
-	REJOIN !   JUST TROLL :) ")
-
-end)
